@@ -1,7 +1,7 @@
 name: hard_analyser
-description: A starting point for Dart libraries or applications.
+description: A heavily opinionated analysis_options for Dart & Flutter projects
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/luisgustavoo/hard_analyser
 
 environment:
   sdk: '>=2.19.0 <3.0.0'

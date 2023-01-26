@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/hard_analyser?style=flat-square)](https://pub.dev/packages/hard_analyser)
 
-An analysis_options inspired by [strict](https://pub.dev/packages/strict) rules. Sometimes being [flutter_lints](https://pub.dev/packages/flutter_lints) isn't enough.
+A heavily opinionated analysis_options for Dart & Flutter projects. Sometimes being [flutter_lints](https://pub.dev/packages/flutter_lints) isn't enough.
 
 ### Usage
 

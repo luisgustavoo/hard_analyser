@@ -7,9 +7,10 @@ analyzer:
   # meaning: the `dynamic` type - this means a very high opportunity to access non-existing properties and have errors
   # like NoSuchMethod, thrown while in runtime. If there is a need to use dynamic type, it would be done by explicitly
   # declaring such fields as `dynamic`.
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
 
   errors:
     # The benefits of being able to inject environment variable are substantial. This should be used with care and
@@ -202,7 +203,7 @@ linter:
     # normally come with single quotes, and this is enough of a reason to use it, as there is no other clear distinction
     # between single/double quotes.
     # - prefer_double_quotes
-    - prefer_equal_for_default_values
+    # - prefer_equal_for_default_values
     # We turned this off due to the fact that we don't want to force the use of this arrow-syntax return when we have a
     # multiline return.
     #

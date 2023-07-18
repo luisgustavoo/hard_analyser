@@ -1,25 +1,19 @@
 # Evaluate the rules using the catalogue: https://dart-lang.github.io/linter/lints/
 analyzer:
-  # Both of the strong-mode lints are really impactful throughout the project, and both of these might be rules that you
-  # may want to modify to `true` if they are too severe.
-  #
-  # We think that both of these rules are usually enforced in scenarios where we are manipulating untyped field/data,
-  # meaning: the `dynamic` type - this means a very high opportunity to access non-existing properties and have errors
-  # like NoSuchMethod, thrown while in runtime. If there is a need to use dynamic type, it would be done by explicitly
-  # declaring such fields as `dynamic`.
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.config.dart'
+    - '**/*.freezed.dart'
+
+
   language:
     strict-casts: true
     strict-inference: true
     strict-raw-types: true
 
   errors:
-    # The benefits of being able to inject environment variable are substantial. This should be used with care and
-    # only when necessary.
     do_not_use_environment: warning
 
-# The ones that don't have any comments are USUALLY (high emphasis on usually) worth due to standardizing concerns -
-# improves readability -, and because the own rules descriptions (in https://dart-lang.github.io/linter/lints/) are
-# useful enough (meaning that we agree with its particular point of view).
 linter:
   rules:
     - always_declare_return_types
@@ -153,7 +147,7 @@ linter:
     - non_constant_identifier_names
     - noop_primitive_operations
     # TODO: Not sure, couldn't quite understand why it's better to type cast to a non-nullable type instead of using
-    # the "!" bang operator.
+    # the '!' bang operator.
     # - null_check_on_nullable_type_parameter
     - null_closures
     - omit_local_variable_types

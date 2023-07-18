@@ -1,3 +1,6 @@
+## 1.2.0
+- Excluding verification on generated files
+
 ## 1.1.0
 - Enabling stricter type checks
 - Remove `prefer_equal_for_default_values`

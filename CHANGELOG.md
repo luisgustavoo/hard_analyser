@@ -1,3 +1,5 @@
+## 1.3.0
+- Excluding verification on generated folder
 ## 1.2.0
 - Excluding verification on generated files
 

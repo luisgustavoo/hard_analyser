@@ -1,6 +1,7 @@
 # Evaluate the rules using the catalogue: https://dart-lang.github.io/linter/lints/
 analyzer:
   exclude:
+    - '**/generated/**'
     - '**/*.g.dart'
     - '**/*.config.dart'
     - '**/*.freezed.dart'

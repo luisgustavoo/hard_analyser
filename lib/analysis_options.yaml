@@ -12,8 +12,8 @@ analyzer:
     strict-inference: true
     strict-raw-types: true
 
-  errors:
-    do_not_use_environment: warning
+  # errors:
+  #   do_not_use_environment: warning
 
 linter:
   rules:

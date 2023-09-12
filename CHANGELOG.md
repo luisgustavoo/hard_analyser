@@ -1,3 +1,6 @@
+## 1.4.0
+- Remove `do_not_use_environment`
+
 ## 1.3.0
 - Excluding verification on generated folder
 ## 1.2.0

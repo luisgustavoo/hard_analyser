@@ -1,3 +1,6 @@
+## 1.5.0
+- Remove `do_not_use_environment`
+
 ## 1.4.0
 - Remove `do_not_use_environment`
 

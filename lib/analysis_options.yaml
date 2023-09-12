@@ -112,7 +112,7 @@ linter:
     # TODO: Not sure, as I have never used this before.
     # - diagnostic_describe_all_properties
     - directives_ordering
-    - do_not_use_environment
+    # - do_not_use_environment
     - empty_catches
     - empty_constructor_bodies
     - empty_statements

@@ -1,11 +1,10 @@
 # Evaluate the rules using the catalogue: https://dart-lang.github.io/linter/lints/
 analyzer:
   exclude:
-    - '**/generated/**'
-    - '**/*.g.dart'
-    - '**/*.config.dart'
-    - '**/*.freezed.dart'
-
+    - "**/generated/**"
+    - "**/*.g.dart"
+    - "**/*.config.dart"
+    - "**/*.freezed.dart"
 
   language:
     strict-casts: true
@@ -117,13 +116,12 @@ linter:
     - empty_constructor_bodies
     - empty_statements
     # I don't see any kind of benefit in this rule
-    # - eol_at_end_of_file    
+    # - eol_at_end_of_file
     - exhaustive_cases
     - file_names
     - flutter_style_todos
     - hash_and_equals
     - implementation_imports
-    - iterable_contains_unrelated_type
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
     - library_names
@@ -133,7 +131,6 @@ linter:
     # This is a totally biased opinion and all three 80, 100 and 120 line lenghts have good/valid points. Although,
     # when exceeding 120, it becomes really hard to read.
     # - lines_longer_than_80_chars
-    - list_remove_unrelated_type
     - literal_only_boolean_expressions
     - missing_whitespace_between_adjacent_strings
     - no_adjacent_strings_in_list
@@ -306,3 +303,8 @@ linter:
     - use_to_and_as_if_applicable
     - valid_regexps
     - void_checks
+    - collection_methods_unrelated_type
+    - implicit_call_tearoffs
+    - type_literal_in_constant_pattern
+    - unnecessary_to_list_in_spreads
+    - use_super_parameters

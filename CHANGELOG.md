@@ -1,3 +1,6 @@
+## 1.6.1
+- fix readme file
+
 ## 1.6.0
 - Updating package with new Dart 3.2.0 rules
 

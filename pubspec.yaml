@@ -1,14 +1,14 @@
 name: hard_analyser
 description: A heavily opinionated analysis_options for Dart & Flutter projects
-version: 1.5.0
+version: 1.6.0
 repository: https://github.com/luisgustavoo/hard_analyser
 
 environment:
-  sdk: '>=3.0.3 <4.0.0'
+  sdk: ">=3.2.0 <4.0.0"
 
 # dependencies:
 #   path: ^1.8.0
 
 dev_dependencies:
   # lints: ^2.0.0
-  test: ^1.21.0
+  test: ^1.24.9

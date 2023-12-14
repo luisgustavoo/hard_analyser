@@ -5,6 +5,7 @@ analyzer:
     - "**/*.g.dart"
     - "**/*.config.dart"
     - "**/*.freezed.dart"
+    - "prisma/**"
 
   language:
     strict-casts: true

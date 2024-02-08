@@ -10,7 +10,7 @@ Add this package to your `dev_dependencies` in your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  hard_analyser: ^1.7.0
+  hard_analyser: ^1.8.0
 ```
 
 and the following to your `analysis_options.yaml` (create one in the root of your project if you don't

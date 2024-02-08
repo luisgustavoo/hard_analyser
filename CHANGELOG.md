@@ -1,3 +1,9 @@
+## 1.8.0
+- Adding topics
+
+## 1.7.0
+- Excluding verification on prisma folder
+
 ## 1.6.1
 - fix readme file
 

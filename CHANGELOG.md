@@ -1,5 +1,5 @@
 ## 1.9.0
-- Excluding `always_require_non_null_named_parameters`
+- Excluding `always_require_non_null_named_parameters` and add `annotate_redeclares`
 
 ## 1.8.0
 - Adding topics
